@@ -522,38 +522,27 @@ a:link, a:visited{
 }
 
 /* MOBILE */
-@media only screen
+/* @media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 3) { */
 
-    .lower{
+@media screen and (max-width: 480px) {
+
+.lower{
       display: none;
-    }
-
-.home-trailer{
-    padding-top: 2%;
 }
 
 iframe{
-  margin-top: 3%;
+  margin-top: 0;
 }
 
-/* .video-trailer{
+.video-trailer{
+  margin-top: 10%;
+}
+
+
+/* .copyright{
   margin-top: 150%;
 } */
-
-/* .home-zine-front{
-  padding-top: 0%;
-}
-
-.home-zine-back{
-  margin-top: 0%;
-} */
-
-.copyright{
-  margin-top: 150%;
-}
-
-
   }
