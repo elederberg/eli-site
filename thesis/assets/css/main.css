@@ -530,7 +530,7 @@ a:link, a:visited{
 @media screen and (max-width: 480px) {
 
 .lower{
-      display: none;
+  display: none;
 }
 
 iframe{
@@ -538,11 +538,11 @@ iframe{
 }
 
 .video-trailer{
-  margin-top: 10%;
+  margin-top: 0;
 }
 
 
-/* .copyright{
-  margin-top: 150%;
-} */
+.copyright{
+  display: none;
+}
   }
