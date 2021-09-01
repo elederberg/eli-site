@@ -532,23 +532,24 @@ a:link, a:visited{
     }
 
 .home-trailer{
-    padding-top: 0%;
+    padding-top: 2%;
 }
 
 .video-trailer{
-  margin-top: 40%;
+  margin-top: 30%;
 }
 
-.home-zine-front{
+/* .home-zine-front{
   padding-top: 0%;
 }
 
 .home-zine-back{
   margin-top: 0%;
-}
+} */
 
 .copyright{
-  margin-top: 450%;
+  margin-top: 370%;
 }
+
 
   }
