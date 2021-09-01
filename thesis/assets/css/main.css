@@ -531,7 +531,24 @@ a:link, a:visited{
       display: none;
     }
 
+.home-trailer{
+    padding-top: 0%;
+}
 
+.video-trailer{
+  margin-top: 40%;
+}
 
+.home-zine-front{
+  padding-top: 0%;
+}
+
+.home-zine-back{
+  margin-top: 0%;
+}
+
+.copyright{
+  margin-top: 450%;
+}
 
   }
