@@ -394,15 +394,15 @@ i{
 
 .about-header{
   font-family: 'Agrandir Variable';
-  font-size: 4.7vw;
+  font-size: 3vw;
   font-variation-settings: "wght" 600, "wdth" 200;
   line-height: 110%;
   color: #383838;
   z-index: 2;
   padding: 1%;
-  margin-top: 4%;
-  margin-left: 12%;
-  margin-right: 12%;
+  margin-top: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .about-header:hover{
@@ -412,14 +412,14 @@ i{
 
 .about-subhead{
   font-family: 'Agrandir Variable';
-  font-size: 3vw;
+  font-size: 1.5vw;
   font-variation-settings: "wght" 400, "wdth" 100;
   line-height: 120%;
   color: #383838;
   z-index: 2;
   margin-top: 2%;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 11%;
+  margin-right: 11%;
 }
 
 .about-image{
@@ -432,25 +432,27 @@ i{
   bottom: 0;
   left: 0;
   right: 0;
-  padding: 8vw;
-  opacity: 0.95;
+  padding-right: 8vw;
+  padding-left: 8vw;
+  padding-top: 4.5vw;
+  opacity: 0.9;
 }
 
 .about-footer{
   font-family: 'Raleway';
-  font-size: 2vw;
+  font-size: 1.2vw;
   line-height: 110%;
   color: #383838;
   padding: 1%;
   margin-top: 2%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 0%;
 }
 
 .about-bold{
-  font-weight: bold;
-  font-size: 2.5vw;
+  font-weight: bolder;
+  font-size: 1.2vw;
 }
 
 .about-anchor{
