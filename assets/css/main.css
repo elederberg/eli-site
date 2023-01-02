@@ -339,9 +339,45 @@ i{
   font-family: 'Charlevoix Pro';
   font-size: 1.2vw;
   color: #383838;
-  margin-top: 5%;
-  margin-bottom: 1%;
+  margin-top: 2%;
+  padding-bottom: 1%;
   margin-left: 45%;
+}
+
+.refills-copy{
+  margin-top: 68%;
+  position: absolute;
+  z-index: 2;
+}
+
+.dream-copy{
+  margin-top: 12%;
+  position: absolute;
+  z-index: 2;
+}
+
+.stop-copy{
+  margin-top: 14%;
+  position: absolute;
+  z-index: 2;
+}
+
+.induce-copy{
+  margin-top: 16%;
+  position: absolute;
+  z-index: 2;
+}
+
+
+.copyright3{
+  font-family: 'Charlevoix Pro';
+  font-size: 1.2vw;
+  color: #383838;
+  margin-top: 12%;
+  padding-bottom: 1%;
+  margin-left: 45%;
+  position: absolute;
+  z-index: 2;
 }
 
 .copyt{
@@ -419,12 +455,12 @@ i{
   z-index: 2;
   margin-top: 2%;
   margin-left: 11%;
-  margin-right: 11%;
+  margin-right: 18%;
 }
 
 .about-image{
   position: absolute;
-  width: 50%;
+  width: 46%;
   z-index: 1;
   margin-left: auto;
   top: 0;
@@ -434,8 +470,8 @@ i{
   right: 0;
   padding-right: 8vw;
   padding-left: 8vw;
-  padding-top: 4.5vw;
-  opacity: 0.9;
+  padding-top: 4vw;
+  opacity: 0.85;
 }
 
 .about-footer{
@@ -474,7 +510,9 @@ i{
 
 .work-body{
   background-color: #383838;
+  position: relative;
 }
+
 
 .home-work3{
   width: 11%;
@@ -502,6 +540,10 @@ i{
   color: #131313;
 }
 
+.indi-main{
+  position: relative;
+}
+
 .indi-text{
   display: flex;
   flex-wrap: wrap;
@@ -526,6 +568,43 @@ i{
   3
 }
 
+.indi-header2{
+  color: transparent;
+  -webkit-text-stroke: 1px #F9F8F8;
+  font-family: 'Agrandir Variable';
+  font-size: 8vw;
+  font-variation-settings: "wght" 700, "wdth" 200;
+  text-align: right;
+  /* margin-left: auto; */
+  margin-top: 0.5%;
+  margin-left: 50%;
+  position: absolute;
+  z-index: 4;
+  transition: all 400ms ease-in-out;
+}
+
+.indi-header3{
+  color: transparent;
+  -webkit-text-stroke: 1px #F9F8F8;
+  font-family: 'Agrandir Variable';
+  font-size: 8vw;
+  font-variation-settings: "wght" 700, "wdth" 200;
+  text-align: right;
+  margin-top: 2%;
+  margin-left: 50%;
+  position: absolute;
+  z-index: 4;
+  transition: all 400ms ease-in-out;
+}
+
+.stop-header{
+  margin-left: 45%;
+}
+
+.induce-header{
+  margin-left: 56%;
+}
+
 .indi-subtext{
   font-family: "Raleway";
   font-size: 1.5vw;
@@ -537,6 +616,22 @@ i{
   position: relative;
   z-index: 2;
 }
+
+.indi-subtext2{
+  font-family: "Raleway";
+  font-size: 1.5vw;
+  color: #F9F8F8;
+  line-height: 130%;
+  margin-left: 9%;
+  margin-right: 9%;
+  position: absolute;
+  z-index: 2;
+}
+
+.sub-top{
+  margin-top: 6%;
+}
+
 
 .subtext1{
   margin-top: 23%;
@@ -554,6 +649,10 @@ i{
   margin-top: 42%;
 }
 
+.subtext5{
+  margin-top: 50%;
+}
+
 .indi-video{
   display: flex;
   flex-wrap: wrap;
@@ -565,6 +664,66 @@ i{
   margin-top: 5%;
   height: auto;
   /* width: 100%; */
+}
+
+.indi-video2{
+  width: 100%;
+  padding-bottom: 50%;
+  height: 0;
+}
+
+.indi-video3{
+  width: 100%;
+  padding-bottom: 50%;
+  height: 0;
+  /* padding-top: 66%; */
+}
+
+
+.vimeo-vid{
+  position: absolute;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.vimeo-vid.is-active{
+  z-index: 5;
+}
+
+
+.vid2{
+  margin-top: 5%;
+}
+
+.indi-image{
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  z-index: 1;
+  justify-content: center;
+  margin-left: 11%;
+  margin-right: 11%;
+  margin-top: 5%;
+  margin-bottom: 7%;
+}
+
+.indi-poster{
+  display: flex;
+  position: absolute;
+  left: 30%;
+  top: 112%;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  padding-bottom: 1%;
 }
 
 .mania{
@@ -592,21 +751,6 @@ i{
 
 .depression.is-active{
   z-index: 5;
-}
-
-.indi-image{
-  display: flex;
-  flex-wrap: wrap;
-  position: absolute;
-  top: 0%;
-  left: 0%;
-  right: 0%;
-  z-index: 1;
-  justify-content: center;
-  margin-left: 11%;
-  margin-right: 11%;
-  margin-top: 5%;
-  margin-bottom: 7%;
 }
 
 .home-footer{
@@ -764,6 +908,10 @@ i{
   and (min-device-width: 375px)
   and (max-device-width: 812px)
   and (-webkit-min-device-pixel-ratio: 3) {
+
+    .home-headings{
+      font-size: 3.5vw;
+    }
 
     .home-work3{
       border-top: 3px solid;

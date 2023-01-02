@@ -107,6 +107,42 @@ html, header{
 
 
 /* FRONT PAGE */
+.home-headings{
+  font-family: 'Charlevoix Pro';
+  font-size: 2vw;
+}
+
+.home-work{
+  width: 11%;
+  text-align: center;
+  padding-top: 1%;
+  top: 45%;
+  left: 0%;
+  position: fixed;
+  transform: rotate(-90deg);
+  border-top: 0.2vw solid;
+  z-index: 4;
+  transition: all 250ms ease-in-out;
+  border-color:  #F9F8F8;
+}
+
+.home-work:hover{
+  border-color: #131313;
+}
+
+.a-work{
+  color: #F9F8F8;
+  transition: all 250ms ease-in-out;
+}
+
+.a-work:hover{
+  color: #131313;
+}
+
+
+
+
+
 .home-front{
 
 }
@@ -219,7 +255,8 @@ i{
   color: #F5F4F4;
   font-size: 3.5vw;
   line-height: 4vw;
-  padding-top: 6vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   padding-left: 15vw;
   padding-right: 15vw;
   transition: all 250ms ease-in-out;
@@ -303,6 +340,12 @@ iframe{
   left: 0%;
 }
 
+iframe.is-active{
+  z-index: 5;
+}
+
+
+
 /* ZINE SYNOPSIS PAGE */
 .zine-synopsis{
 }
@@ -372,7 +415,7 @@ a:link, a:visited{
   font-size: 1.8vw;
   font-weight: 600;
   top: 0%;
-  margin-top: 324%;
+  margin-top: 321%;
   padding-bottom: 1%;
   margin-left: 43.5%;
   z-index: 4;
@@ -535,12 +578,15 @@ a:link, a:visited{
 }
 
 /* MOBILE */
-/* @media only screen
+@media only screen
   and (min-device-width: 375px)
   and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3) { */
+  and (-webkit-min-device-pixel-ratio: 3) {
 
-@media screen and (max-width: 480px) {
+
+.home-headings{
+    font-size: 3.5vw;
+}
 
 .lower{
   display: none;
@@ -554,8 +600,8 @@ iframe{
   margin-top: 0;
 }
 
-
+/*
 .copyright{
   display: none;
-}
+} */
   }
